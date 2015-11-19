@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+##The following function will do the following:
+## (a) set the entries of the matrix
+## (b) get the entries of the matrix.
+## (c) set the entries of the inverse
+## (d) get the entries of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -17,6 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## The following function will do the following:
+## (a) it takes the list calculated by the previous function.
+## (b) checks if the inverse is already computed, if so populates it from the data.
+## (c) else computes the inverse and prints it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
